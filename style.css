@@ -227,6 +227,139 @@ ul{
 
 
 
+@media screen and (max-width:400px){
+  *{
+      font-family: 'Crimson Text', serif;
+  }
+  nav{
+margin: 0px;
+width: 100%;
+padding: 0px;
+  }
+  
+  .main{
+      padding: 0px;
+      margin: 0px;
+      top: 110px;
+      height: 30px;
+     display:inline;
+  left: 50px;
+  width: 300px;
+  }
+ 
+  .row{
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      height: 1800px;
+  }
+  .pic{
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      
+  }
+  #home{
+      display: flex;
+      height: 300px;
+  }
+  #home::before{
+      width: 100%;
+      height: 500px;
+  }
+  nav ul li a{
+      margin: 0px;
+      padding: 10px;
+      display: flex;
+  }
+  nav ul li a:hover{
+      color: rgb(43, 43, 194);
+      text-shadow:2px 4px 8px rgb(16, 16, 73);
+  }
+  .overlay{
+      padding: 0px;
+      margin: 0px;
+      top: 200px;
+    bottom: 500px;
+  }
+  .pic img{
+      width:250px;
+      height: 160px;
+      margin-left: 70px;
+  }
+   h2{
+text-align: center;
+margin-top: 200px;
+padding: 0px;
+  } 
+  h3{
+      margin: 10px;
+  }
+  .pic p{
+margin: 0px;
+text-align: justify;
+  }
+.gallery{
+  margin: 0px;
+  margin-left: 45px;
+}
+.gallery img{
+  margin: 0px;
+  width: 300px;
+height: 200px;
+}
+.box{
+  margin: 0px;
+  width: 300px;
+  height: 700px;
+  margin-left: 40px;
+}
+.box img{
+  width: 100%;
+height: 250px;
+}
+.box h4{
+  text-align: center;
+  color: black;
+}
+.box p{
+  text-align: justify;
+  margin: 0px;
+}
+.box:hover{
+  width:310px ;
+  height:407px ;
+   border: none;
+   box-shadow: 2px 4px 5px 6px black;
+   background-position: left bottom;
+}
+#award{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 250px;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 40px;
+}
+
+
+
+
+#ConnectUs img{
+  padding: 0px;
+  margin: 0px;
+}
+
+  
+}
+
+
+
 
 
 
